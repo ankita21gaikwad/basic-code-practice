@@ -1,0 +1,37 @@
+// 1.Fibonacci Series : 0,1,1,2,3,5,8,13,21........
+
+
+let n1 = 0;
+let n2 = 1;
+console.log(n1);
+console.log(n2);
+for(let i =1; i<8; i++){
+   let n3 = n2+n1;
+   console.log(n3);
+    n1 = n2; 
+    n2 = n3;    
+}
+
+// 2 Prime Number : Number should be greater than 1 and divisible by 1 or divisible by itself
+
+function isNumberPrime(num:number):boolean{
+    let isNumberPrime: boolean = true;
+    if(num>1){
+        for(let i= 2; i<num; i++){
+            if(num%i === 0){
+                isNumberPrime = false;
+                console.log(num+ ' is not a prime number'); 
+                break;                
+            }              
+        } 
+         if(isNumberPrime){
+            console.log(num+ ' is a prime number');
+        }
+             
+    } else{
+        console.log(num+ ' is not a prime number');
+    }
+    return true;
+}
+
+isNumberPrime(1);
