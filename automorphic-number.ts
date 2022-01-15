@@ -13,7 +13,7 @@ function isNumberAutoMorphic(num: number): boolean{
 
     // get the last two index of the string array
     let lastTwoIndexString: string = '';
-    for(let i = lengthOfStringArray-1; i >0; i--){
+    for(let i = lengthOfStringArray-1; i > 0; i--){
         lastTwoIndexString = stringArray[i] + lastTwoIndexString; 
     }
 
