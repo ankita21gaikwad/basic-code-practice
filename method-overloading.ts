@@ -1,4 +1,4 @@
-// Method Overloading is same name with different number of parameters or different datatype of parameters
+// Method Overloading is same method name with different number of parameters or different datatype of parameters
 
 function methodOverloading(): boolean {  
   console.log('The sum of two numbers is ' + add(1,2));
