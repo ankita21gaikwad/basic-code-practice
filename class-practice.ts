@@ -42,7 +42,7 @@ class AutoMobile {
     }
 }
 
-class Audi extends AutoMobile{
+class Audi extends AutoMobile {
     displayPrice(): void {
         console.log('Price of AUDI is :' + this.Price);
     }
