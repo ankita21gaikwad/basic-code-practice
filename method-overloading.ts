@@ -1,8 +1,8 @@
 // Method Overloading is same method name with different number of parameters or different datatype of parameters
 
-function methodOverloading(): boolean {  
-  console.log('The sum of two numbers is ' + add(1,2));
-  console.log('The sum of two strings is ' + add('a','b'));
+function methodOverloading(): boolean {
+  console.log('The sum of two numbers is ' + add(1, 2));
+  console.log('The sum of two strings is ' + add('a', 'b'));
   return true;
 }
 
@@ -14,7 +14,7 @@ function add(a: number, b: number): number;
 
 // method definition of add
 function add(a: any, b: any): any {
-  return a+b;
+  return a + b;
 }
 
 methodOverloading();
