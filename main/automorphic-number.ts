@@ -21,7 +21,7 @@ function isNumberAutoMorphic(num: number): boolean {
     const actualNumber = parseInt(lastTwoIndexString);
 
     // return true if actual number and num matches else return false
-    return (actualNumber === num) ? true : false;
+    return (actualNumber === num);
 
 }
 

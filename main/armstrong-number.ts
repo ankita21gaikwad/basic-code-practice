@@ -19,12 +19,11 @@ function isNumberArmstrong(num: number): boolean {
 }
 
 function convertNumberIntoDigitsArray(num: number): number[] {
-    let digitArray: number[];
     // convert num into string and split the digits
     let digits: string[] = num.toString().split('');
 
-    // return all the digits into an number array
-    return digitArray = digits.map(Number);
+    // return all the digits into a number array
+    return digits.map(Number);
 
 }
 
