@@ -17,7 +17,7 @@ function isPalindrome(word: string): boolean {
     return true;
 }
 
-function reverseString(word: string, lengthOfWord: number): any {
+function reverseString(word: string, lengthOfWord: number): string {
     let reversedWord: string = '';
     for (let i = 0; i < lengthOfWord; i++) {
         // extracts each character
