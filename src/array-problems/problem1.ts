@@ -1,4 +1,4 @@
-// Question 1: find the index of the elements of the array whose sum is 15
+// Question 1: find the index of the elements of the given array whose sum is 15
 const array = [2, 11, 8, 9, 13];
 let index1 = 0;
 let index2 = 0;
