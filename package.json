@@ -4,7 +4,7 @@
   "description": "basic code practice",
   "main": "index.js",
   "scripts": {
-    "test": ""
+    "test": "ts-node src/array-problems/problem2.ts"
   },
   "repository": {
     "type": "git",
